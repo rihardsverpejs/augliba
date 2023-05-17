@@ -1,0 +1,52 @@
+body{
+    margin: 0;
+    padding: 0;
+    background: #FECEAB  ;
+}
+nav{
+    width: 100%;
+    background: #2A363B ;
+    overflow: auto;
+}
+ul{
+    padding: 0;
+    margin: 0 0 0 150px;
+    list-style: none;
+}
+li{
+    float: left;
+}
+.logo img{
+    position: absolute;
+    margin: 5px;
+    margin-left: 10px;
+}
+nav a{
+    width: 100px;
+    display: block;
+    padding: 20px 15px;
+    text-decoration: none;
+    font-family: Arial;
+    color: #E84A5F;
+    text-align: center;
+}
+nav a:hover {
+    background: #99B898;
+    transition: 0.7s;
+    color: azure;
+}
+.teksts {
+    font-size: 1.5em;
+    text-align: justify;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.kontak{
+    width: 100%;
+}
+.dot {
+    height: 25px;
+    width: 25px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+  }
